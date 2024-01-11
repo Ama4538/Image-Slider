@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: black;
+}
+
+.image-container{
+    display: flex;
+    place-self: center;
+    gap: 2vmin;
+    padding: 0 25vmin 0 10vmin;
+}
+
+.image-container__image:nth-child(1) {
+    background-image: url(./img/alex_rainer-D3z5uMvznkU-unsplash.jpg);
+    background-position-y: 65%;
+}
+
+.image-container__image:nth-child(2) {
+    background-image: url(./img/yoav-aziz-tKCd-IWc4gI-unsplash.jpg);
+    background-position-y: 60%;
+}
+
+.image-container__image:nth-child(3) {
+    background-image: url(./img/iryna-makarchuk-Q90yahk7W04-unsplash.jpg);
+    background-position-y: 30%;
+}
+
+.image-container__image:nth-child(4) {
+    background-image: url(./img/katsiaryna-endruszkiewicz-BteCp6aq4GI-unsplash.jpg);
+    background-position-y: 35%;
+}
+
+.image-container__image:nth-child(5) {
+    background-image: url(./img/daniele-colucci-8MoRs-DVtas-unsplash.jpg);
+    background-position-y: 45%;
+}
+
+.image-container__image:nth-child(6) {
+    background-image: url(./img/luobulinka-FO4mQZi1c0M-unsplash.jpg);
+    background-position-y: 20%;
+}
+
+.image-container__image:nth-child(7) {
+    background-image: url(./img/jack-finnigan-00yDgACVeMA-unsplash.jpg);
+    background-position-y: 40%;
+}
+
+.image-container__image:nth-child(8) {
+    background-image: url(./img/ayo-ogunseinde-6W4F62sN_yI-unsplash.jpg);
+    background-position-y: 75%;
+    background-size: 145%;
+}
+
+.image-container__image:nth-child(9) {
+    background-image: url(./img/denys-nevozhai--F3wMFrZ7z0-unsplash.jpg);
+    background-position-y: 75%;
+    background-size: 160%;
+}
+
+.image-container__image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 175%;
+    aspect-ratio: 7 / 9;
+    width: 40vmin;
+    user-select: none;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.image-container__image[data-blur = "true"] {
+    filter: blur(4px);
+}
