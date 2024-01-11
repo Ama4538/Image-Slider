@@ -10,7 +10,8 @@
     "start": "webpack serve --open",
     "watch": "webpack --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "live": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
