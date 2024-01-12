@@ -3,6 +3,9 @@
 # Image-Slider
 Simple image-slider project implementing a slider alongside a shift of each image following the cursor and a hover effect.
 
+## Access
+Accessible from https://ama4538.github.io/Image-Silder/
+
 ## Installation
 1. Clone the repository: git clone https://github.com/Ama4538/Image-Silder.git
 2. install dependencies: npm install
