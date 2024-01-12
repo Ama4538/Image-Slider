@@ -8,10 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "start": "webpack serve --open",
-    "watch": "webpack --watch",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "live": "git subtree push --prefix dist origin gh-pages"
+    "watch": "webpack --watch"
   },
   "keywords": [],
   "author": "",
