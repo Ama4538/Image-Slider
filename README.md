@@ -1,7 +1,7 @@
 ![Screenshot](./Image/Screenshot.png)
 
-# Image-Silder
-Simple image-silder project implementing a silder alongside a shift of each image following the cursor and a hover effect.
+# Image-Slider
+Simple image-slider project implementing a slider alongside a shift of each image following the cursor and a hover effect.
 
 ## Installation
 1. Clone the repository: git clone https://github.com/Ama4538/Image-Silder.git
